@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root { height: 100%; }
+body { background: #050b1a; color: #e6edf8; font-family: ui-sans-serif, system-ui, "Segoe UI", sans-serif; }
+button:focus-visible, a:focus-visible { outline: 3px solid #22d3ee; outline-offset: 2px; }
